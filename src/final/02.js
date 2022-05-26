@@ -64,7 +64,7 @@ function PokemonInfo({pokemonName}) {
       }
       return fetchPokemon(pokemonName)
     },
-    {status: pokemonName ? 'pending' : 'idle'},
+    {status: pokemonNa23me ? 'pending' : 'idle'},
     [pokemonName],
   )
 
